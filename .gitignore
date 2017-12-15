@@ -278,3 +278,17 @@ class/System.Data/Documentation/
 class/System.Drawing/Documentation/
 class/System/Documentation/
 *.mdb
+class/corlib/Documentation/en/
+class/corlib/Test/
+class/Mono.Posix/Documentation/en/
+class/Mono.Security/Documentation/en/
+class/referencesource/
+class/System.Configuration/Test/
+class/System.Core/Documentation/en/
+class/System.Core/Test/
+class/System.Net.Http/Documentation/en/
+class/System.Net.Http/Test/
+class/System.Xml.Linq/Documentation/en/
+class/System.XML/Documentation/en/
+class/System.XML/Test/
+class/xwt/

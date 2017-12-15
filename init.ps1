@@ -12,4 +12,7 @@ if ($Action -eq "")
 else { if ($Action -eq "clone")
 {
     git clone -b master https://github.com/akrisiun/mono-source
+    
+    cd class/
+    git clone https://github.com/akrisiun/referencesource
 } }
