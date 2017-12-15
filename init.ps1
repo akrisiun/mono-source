@@ -1,20 +1,15 @@
 # src2 init script
-# 
+# powershell -file init.ps1 clone
 [cmdletbinding()]
 param(
    [string]$Action=""
 )
 
-if ($Action == "")
+if ($Action -eq "")
 {
-    Write-Host "init.ps1 <clone restore build run dev>"
+    Write-Host "powershell init.ps1 <clone restore build run>"
 }
-else {
-    if ($Action == "clone")
-    {
-        git clone https://github.com/akrisiun/RazorGenerator.MsBuild.git
-
-        #REM cd d:\Sanitex\PrekesWeb\SanitexWeb.DX\
-        git clone -b dx.v141 https://bitbucket.org/sanitex/snxweblib.git 
-    }
-}
+else { if ($Action -eq "clone")
+{
+    git clone -b master https://github.com/akrisiun/mono-source
+} }
