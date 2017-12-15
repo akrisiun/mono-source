@@ -277,3 +277,4 @@ class/System.Data.Linq/examples/
 class/System.Data/Documentation/
 class/System.Drawing/Documentation/
 class/System/Documentation/
+*.mdb
